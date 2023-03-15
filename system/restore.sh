@@ -41,14 +41,8 @@ cp passwd /etc/
 cp group /etc/
 cp shadow /etc/
 cp gshadow /etc/
-cp -r wireguard /etc/
-cp ss.conf /etc/shadowsocks-libev/ss.conf
-cp -r premium-script /var/lib/
 cp -r xray /usr/local/etc/
-cp -r trojan-go /etc/
-cp -r shadowsocksr /usr/local/
 cp -r public_html /home/vps/
-cp crontab /etc/
 strt
 rm -rf /root/backup
 rm -f backup.zip
